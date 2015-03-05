@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="1.0.0.0" Id="xUnitItemTemplate" Language="en-us" Publisher="J.Sakamoto" />
+    <Identity Version="1.0.0.3" Id="xUnitItemTemplate" Language="en-us" Publisher="J.Sakamoto" />
     <DisplayName>xUnit Test Item Template</DisplayName>
     <Description>An empty xUnit test class declaration</Description>
     <!--<MoreInfo>http://www.../</MoreInfo>-->
