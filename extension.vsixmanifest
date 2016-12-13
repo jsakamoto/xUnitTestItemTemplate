@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="1.0.0.3" Id="xUnitItemTemplate" Language="en-us" Publisher="J.Sakamoto" />
+    <Identity Version="1.0.0.4" Id="xUnitItemTemplate" Language="en-us" Publisher="J.Sakamoto" />
     <DisplayName>xUnit Test Item Template</DisplayName>
     <Description>An empty xUnit test class declaration</Description>
     <!--<MoreInfo>http://www.../</MoreInfo>-->
@@ -12,11 +12,12 @@
     <Tags>xunit,Unit Testing,TDD</Tags>
     <!--<GettingStartedGuide>http://www....</GettingStartedGuide>-->
   </Metadata>
-
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,15.0]" />
   </Installation>
-
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[11.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="ItemTemplates" />
   </Assets>
